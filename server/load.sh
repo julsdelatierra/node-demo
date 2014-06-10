@@ -8,8 +8,8 @@ NGINX_CONFIG_DIR=/etc/nginx/conf.d
 INIT_DIR=/etc/init.d
 
 # Symlink nginx and init scripts
-ln -s $PWD/node-demo.conf $NGINX_CONFIG_DIR/
-ln -s $PWD/node-demo $INIT_DIR/
+ln -s $PWD/node-demo.conf $NGINX_CONFIG_DIR/node-demo.conf
+ln -s $PWD/node-demo $INIT_DIR/node-demo
 
 # Make dir for logs and pids
 mkdir $NGINX_LOG_DIR/$NAME
