@@ -1,7 +1,7 @@
 {
-    "name": "prodemo",
+    "name": "node-demo",
     "version": "0.0.1",
-    "_id": "prodemo@0.0.1",
+    "_id": "node-demo@0.0.1",
     "dependencies": {
 
     }

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NAME=prodemo
+NAME=node-demo
 APPLICATION_DIRECTORY=/var/www
 APPLICATION_START=$NAME/index.js
 PIDFILE=$APPLICATION_DIRECTORY/pids/$NAME.pid
