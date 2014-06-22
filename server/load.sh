@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NAME=node-demo
+NAME=lunademiel
 
 NGINX_LOG_DIR=/var/log/nginx
 WWW_DIR=/var/www

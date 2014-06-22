@@ -1,12 +1,11 @@
-var http = require('http');
+var express = require('express');
 
-var content = '<h1>Hello world!</h1>'
-    + '<p><strong>Environment:</strong>'
-    + process.env.NODE_ENV
-    + '</p>';
+var willy = require('./libraries/willy.js');
 
-http.createServer(function(request, response) {
-    response.writeHead(200);
-    response.write(content);
-    response.end();
-}).listen('8789');
+var app = willy.App();
+
+app.get('/', function(req, res) {
+    res.send('Alo!');
+});
+
+app.listen(5555);
