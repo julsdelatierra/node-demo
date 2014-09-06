@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NAME=lunademiel
+NAME=demo
 
 NGINX_LOG_DIR=/var/log/nginx
 WWW_DIR=/var/www
