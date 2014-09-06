@@ -28,7 +28,7 @@ $ sudo npm install -g forever
 Later just clone node-demo:
 
 ```sh
-$ git clone https://github.com/julianceballos/node-demo
+$ git clone https://github.com/julianceballos/node-demo demo
 ```
 
 Go inside project folder and install the dependencies:
